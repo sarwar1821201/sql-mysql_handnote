@@ -95,6 +95,21 @@ The AND operator is used to filter records based on more than one condition, lik
 ## code for and operator
 `SELECT * FROM employees WHERE country="usa" AND salary>5000;`
 
+![select query image](/img/and.PNG);
+
+## The SQL OR Operator
+The WHERE clause can contain one or more OR operators.
+
+The OR operator is used to filter records based on more than one condition, like if you want to return all customers from Germany but also those from Spain:
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE condition1 OR condition2 OR condition3 ...;
+
+## code for or operator
+`SELECT * FROM employees WHERE country="usa" OR city="london";`
+
+![select query image](/img/and.PNG);
 
 
 
