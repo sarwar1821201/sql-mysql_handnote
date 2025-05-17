@@ -59,4 +59,20 @@ Inside a table, a column often contains many duplicate values; and sometimes you
   ![select query image](/img/distinct.PNG)
 
 
+  ## The SQL WHERE Clause
+
+The WHERE clause is used to filter records.
+It is used to extract only those records that fulfill a specified condition.
+
+## code for where clause
+
+ `SELECT * FROM employees WHERE salary>5000;`
+
+   ![select query image](/img/where_clause.PNG)
+
+
+
+
+
+
 
