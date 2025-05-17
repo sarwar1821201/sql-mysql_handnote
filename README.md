@@ -109,9 +109,22 @@ WHERE condition1 OR condition2 OR condition3 ...;
 ## code for or operator
 `SELECT * FROM employees WHERE country="usa" OR city="london";`
 
-![select query image](/img/and.PNG);
+![select query image](/img/or.PNG);
 
+### The NOT Operator
 
+The NOT operator is used in combination with other operators to give the opposite result, also called the negative result.
+
+SELECT column1, column2, ...
+FROM table_name
+WHERE NOT condition;
+
+### code for NOT Operator
+
+`SELECT * FROM employees WHERE NOT country="usa";`
+`SELECT * FROM employees WHERE name NOT LIKE 'l%';`
+
+![select query image](/img/or.PNG);
 
 
 
