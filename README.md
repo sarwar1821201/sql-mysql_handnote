@@ -84,7 +84,18 @@ ORDER BY column1, column2, ... ASC|DESC;
  ### code for order by query
  `SELECT * FROM employees ORDER BY salary DESC, country ASC;`
 
-![select query image](/img/where_clause.PNG)
+![select query image](/img/order_by.PNG)
+
+## The SQL AND Operator
+The WHERE clause can contain one or many AND operators.
+
+The AND operator is used to filter records based on more than one condition, like if you want to return all employees from usa that starts with the letter 'G':
+
+
+## code for and operator
+`SELECT * FROM employees WHERE country="usa" AND salary>5000;`
+
+
 
 
 
