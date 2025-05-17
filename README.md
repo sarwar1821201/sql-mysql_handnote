@@ -68,7 +68,24 @@ It is used to extract only those records that fulfill a specified condition.
 
  `SELECT * FROM employees WHERE salary>5000;`
 
+  SELECT column1, column2, ...
+FROM table_name
+WHERE condition;
+
    ![select query image](/img/where_clause.PNG)
+
+   ## The SQL ORDER BY
+ The ORDER BY keyword is used to sort the result-set in ascending or descending order.The ORDER BY keyword sorts the records in ascending order by default. To sort the records in descending order, use the DESC keyword.
+
+SELECT column1, column2, ...
+FROM table_name
+ORDER BY column1, column2, ... ASC|DESC;
+
+ ### code for order by query
+ `SELECT * FROM employees ORDER BY salary DESC, country ASC;`
+
+![select query image](/img/where_clause.PNG)
+
 
 
 
