@@ -27,3 +27,16 @@ My SQL tutorial will teach you how to use SQL in: MySQL, SQL Server,  Postgres, 
 - UPDATE - updates data in a database
 - DELETE - deletes data from a database
 - INSERT INTO - inserts new data into a database
+- CREATE DATABASE - creates a new database
+- ALTER DATABASE - modifies a database
+- CREATE TABLE - creates a new table
+- ALTER TABLE - modifies a table
+- DROP TABLE - deletes a table
+- CREATE INDEX - creates an index (search key)
+- DROP INDEX - deletes an index
+
+## The SQL SELECT Statement
+The SELECT statement is used to select data from a database. It means select all rows from the table
+
+  select *from employees;
+
