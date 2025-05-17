@@ -35,8 +35,15 @@ My SQL tutorial will teach you how to use SQL in: MySQL, SQL Server,  Postgres, 
 - CREATE INDEX - creates an index (search key)
 - DROP INDEX - deletes an index
 
-## The SQL SELECT Statement
-The SELECT statement is used to select data from a database. It means select all rows from the table
+## Website
+- W3 school--->  
+<https://www.w3schools.com/sql/default.asp>
+- Postgresql    
+<https://www.postgresql.org/about/>
 
-  select *from employees;
+## The SQL SELECT Statement
+The SELECT statement is used to select data from a database. It means select all rows from the table, If you want to return all columns, without specifying every column name, you can use the SELECT * syntax:
+
+  select * from employees;  
+  ![select query image](/img/select_command.PNG)
 
