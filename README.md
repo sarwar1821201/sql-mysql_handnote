@@ -257,6 +257,13 @@ The SUM() function returns the total sum of a numeric column.
 
 ![select query image](/img/sum.PNG);
 
+## The SQL AVG() Function
+The AVG() function returns the average value of a numeric column.
+
+## code for avg query
+`SELECT AVG(salary) as average_employee_salary FROM employees;`
+
+
 
 
 
