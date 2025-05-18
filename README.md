@@ -236,6 +236,18 @@ When you use MIN() or MAX(), the returned column will not have a descriptive nam
 
 ![select query image](/img/highest_salary.PNG);
 
+## The SQL COUNT() Function
+The COUNT() function returns the number of rows that matches a specified criterion.
+
+## Syntax
+SELECT COUNT(column_name)
+FROM table_name
+WHERE condition;
+
+## code for count
+`SELECT COUNT(name) FROM employees WHERE salary>5000;`
+
+
 
 
 
