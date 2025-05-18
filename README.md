@@ -153,7 +153,30 @@ VALUES (value1, value2, value3, ...);
 
 If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value.
 
-#### 
+#### How to Test for NULL Values?
+It is not possible to test for NULL values with comparison operators, such as =, <, or <>.
+
+We will have to use the IS NULL and IS NOT NULL operators instead.
+
+IS NULL Syntax
+SELECT column_names
+FROM table_name
+WHERE column_name IS NULL;
+
+IS NOT NULL Syntax
+SELECT column_names
+FROM table_name
+WHERE column_name IS NOT NULL;
+
+### code for is null 
+`SELECT name, salary,country FROM employees where city IS NULL;`
+
+![select query image](/img/is_null.PNG);
+
+## code for is not null
+`SELECT name, salary , country from employees WHERE city IS NOT null`
+
+![select query image](/img/not_null.PNG);
 
 
 
