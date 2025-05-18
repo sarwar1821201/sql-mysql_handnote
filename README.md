@@ -246,7 +246,16 @@ WHERE condition;
 
 ## code for count
 `SELECT COUNT(name) FROM employees WHERE salary>5000;`
+![select query image](/img/count.PNG);
 
+## The SQL SUM() Function
+
+The SUM() function returns the total sum of a numeric column.
+
+## code for sum query
+`SELECT SUM(salary) AS total_employee_salary FROM employees;`
+
+![select query image](/img/sum.PNG);
 
 
 
