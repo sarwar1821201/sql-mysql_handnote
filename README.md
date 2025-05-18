@@ -124,7 +124,36 @@ WHERE NOT condition;
 `SELECT * FROM employees WHERE NOT country="usa";`
 `SELECT * FROM employees WHERE name NOT LIKE 'l%';`
 
-![select query image](/img/or.PNG);
+![select query image](/img/not.PNG);
+
+
+### The SQL INSERT INTO Statement
+The INSERT INTO statement is used to insert new records in a table.
+
+#### INSERT INTO Syntax
+It is possible to write the INSERT INTO statement in two ways:
+
+1. Specify both the column names and the values to be inserted:
+
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+2. If you are adding values for all the columns of the table, you do not need to specify the column names in the SQL query. However, make sure the order of the values is in the same order as the columns in the table. Here, the INSERT INTO syntax would be as follows:
+
+INSERT INTO table_name
+VALUES (value1, value2, value3, ...);
+
+### code for insert into 
+ ` INSERT INTO employees VALUES(NULL,'Karim','karim@gmail.com','gender',4500,'Dhaka','Bangladesh');`
+
+ ![select query image](/img/insert.PNG);
+
+ ## What is a NULL Value?
+ A field with a NULL value is a field with no value.
+
+If a field in a table is optional, it is possible to insert a new record or update a record without adding a value to this field. Then, the field will be saved with a NULL value.
+
+#### 
 
 
 
