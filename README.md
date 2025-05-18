@@ -206,6 +206,36 @@ Be careful when deleting records in a table! Notice the WHERE clause in the DELE
 `DELETE FROM employees WHERE name="hello";`
 
 ## img
+![select query image](/img/delete.PNG);
+
+## The SQL MIN() and MAX() Functions
+The MIN() function returns the smallest value of the selected column.
+
+The MAX() function returns the largest value of the selected column.
+
+# Syntax
+SELECT MIN(column_name)
+FROM table_name
+WHERE condition;
+
+SELECT MAX(column_name)
+FROM table_name
+WHERE condition;
+
+## Set Column Name (Alias)
+When you use MIN() or MAX(), the returned column will not have a descriptive name. To give the column a descriptive name, use the AS keyword:
+
+## code for lowest salary
+`SELECT MIN(salary) as lowest_employee_salary FROM employees;`
+
+![select query image](/img/min_salary.PNG);
+
+## code for highest/max salary 
+
+`SELECT MAX(salary) as highest_employee_salary FROM employees;`
+
+![select query image](/img/highest_salary.PNG);
+
 
 
 
