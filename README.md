@@ -335,6 +335,10 @@ SELECT * FROM employees WHERE salary BETWEEN 3000 AND 5000;
 
 ![select query image](/img/between.PNG);
 
+## Not Between
+To display the products outside the range of the previous example, use NOT BETWEEN:
+
+SELECT * FROM employees WHERE salary Not BETWEEN 3000 AND 5000;
 
 
 
