@@ -292,6 +292,34 @@ SELECT * FROM employees WHERE name LIKE 'j%' or name LIKE 'l%';
 
 ![select query image](/img/like_or.PNG);
 
+## ends  with query
+SELECT * FROM employees WHERE name LIKE '%s';
+
+![select query image](/img/ends_with.PNG);
+
+## The SQL IN Operator
+The IN operator allows you to specify multiple values in a WHERE clause.
+
+The IN operator is a shorthand for multiple OR conditions.
+
+ExampleGet your own SQL Server
+Return all customers from 'Germany', 'France', or 'UK'
+
+## code for IN query
+SELECT * FROM employees WHERE country IN ('usa','uk');
+
+![select query image](/img/in.PNG);
+
+## NOT IN
+By using the NOT keyword in front of the IN operator, you return all records that are NOT any of the values in the list.
+
+Example
+Return all customers that are NOT from 'Germany', 'France', or 'UK':
+
+## code for not in
+SELECT * FROM employees WHERE country NOT IN ('usa','uk');
+
+![select query image](/img/in.PNG);
 
 
 
