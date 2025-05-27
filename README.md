@@ -361,5 +361,8 @@ FROM table_name;
 ## code for Alias Query
 SELECT salary AS employee_salary FROM employees;
 
-![select query image](/img/in.PNG);
+![select query image](/img/alias.PNG);
+
+## SQL JOIN
+A JOIN clause is used to combine rows from two or more tables, based on a related column between them.
 
