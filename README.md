@@ -263,6 +263,36 @@ The AVG() function returns the average value of a numeric column.
 ## code for avg query
 `SELECT AVG(salary) as average_employee_salary FROM employees;`
 
+![select query image](/img/avg.PNG);
+
+
+## The SQL LIKE Operator
+The LIKE operator is used in a WHERE clause to search for a specified pattern in a column.
+
+There are two wildcards often used in conjunction with the LIKE operator:
+
+ The percent sign % represents zero, one, or multiple characters
+ The underscore sign _ represents one, single character
+
+ #### pattern
+ SELECT column1, column2, ...
+FROM table_name
+WHERE columnN LIKE pattern;
+
+## code for start with
+SELECT * FROM employees WHERE name LIKE "l%";
+
+![select query image](/img/start_like.PNG);
+
+###### Return all customers that starts with 'a' or starts with 'b':
+
+code for # like query
+
+SELECT * FROM employees WHERE name LIKE 'j%' or name LIKE 'l%';
+
+![select query image](/img/like_or.PNG);
+
+
 
 
 
