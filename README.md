@@ -340,6 +340,26 @@ To display the products outside the range of the previous example, use NOT BETWE
 
 SELECT * FROM employees WHERE salary Not BETWEEN 3000 AND 5000;
 
+![select query image](/img/not_between.PNG);
 
 
+## SQL Aliases
+SQL aliases are used to give a table, or a column in a table, a temporary name.
+
+Aliases are often used to make column names more readable.
+
+An alias only exists for the duration of that query.
+
+An alias is created with the AS keyword.
+
+## Syntax
+When alias is used on column:
+
+SELECT column_name AS alias_name
+FROM table_name;
+
+## code for Alias Query
+SELECT salary AS employee_salary FROM employees;
+
+![select query image](/img/in.PNG);
 
